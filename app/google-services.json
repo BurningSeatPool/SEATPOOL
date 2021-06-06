@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "427323375992",
+    "project_id": "seat-34957",
+    "storage_bucket": "seat-34957.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427323375992:android:4d66633eac3bab0ed6888d",
+        "android_client_info": {
+          "package_name": "com.example.seatpool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427323375992-5tfbmraag8i8al8d497npa62un81m8h7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPQZpbGMPsoL-QUzwddlLiRk-q6i5FBPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427323375992-5tfbmraag8i8al8d497npa62un81m8h7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

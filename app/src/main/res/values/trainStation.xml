@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="initial">
+        <item> </item>
+    </string-array>
+
+    <string-array name="primary_station">
+        <item>서울</item>
+        <item>욜산</item>
+        <item>광명</item>
+        <item>영등포</item>
+        <item>수원</item>
+        <item>평택</item>
+        <item>천안아산</item>
+        <item>천안</item>
+        <item>오송</item>
+        <item>조치원</item>
+        <item>대전</item>
+        <item>서대전</item>
+        <item>김천구미</item>
+        <item>구미</item>
+        <item>동대구</item>
+        <item>대구</item>
+        <item>울산(통도사)</item>
+        <item>포항</item>
+        <item>경산</item>
+        <item>밀양</item>
+        <item>부산</item>
+        <item>신경주</item>
+        <item>구포</item>
+        <item>창원중앙</item>
+        <item>평창</item>
+        <item>강릉</item>
+        <item>익산</item>
+        <item>전주</item>
+        <item>광주송정</item>
+        <item>목포</item>
+        <item>순천</item>
+        <item>청량리</item>
+        <item>여수EXPO</item>
+        <item>동해</item>
+        <item>정동진</item>
+        <item>안동</item>
+        <item>서원주</item>
+        <item>원주</item>
+    </string-array>
+
+    <string-array name="ga_station">
+        <item>가평</item>
+        <item>각계</item>
+        <item>강경</item>
+        <item>강구</item>
+        <item>강릉</item>
+        <item>강촌</item>
+        <item>개포</item>
+        <item>건천</item>
+        <item>경산</item>
+        <item>경주</item>
+        <item>계룡</item>
+        <item>고한</item>
+        <item>곡성</item>
+        <item>공주</item>
+        <item>광명</item>
+        <item>광양</item>
+        <item>광주</item>
+        <item>광주송정</item>
+        <item>광천</item>
+        <item>구례구</item>
+        <item>구미</item>
+        <item>구포</item>
+        <item>군북</item>
+        <item>군산</item>
+        <item>극락강</item>
+        <item>거장</item>
+        <item>김유정</item>
+        <item>김제</item>
+        <item>김천</item>
+        <item>김천구미</item>
+    </string-array>
+
+    <string-array name="na_station">
+        <item>나전</item>
+        <item>나주</item>
+        <item>남성현</item>
+        <item>남원</item>
+        <item>남창</item>
+        <item>남춘천</item>
+        <item>논산</item>
+        <item>능주</item>
+    </string-array>
+
+    <string-array name="da_station">
+        <item>다시</item>
+        <item>단양</item>
+        <item>대광리</item>
+        <item>대구</item>
+        <item>대성리</item>
+        <item>대야</item>
+        <item>대전</item>
+        <item>대천</item>
+        <item>덕소</item>
+        <item>덕하</item>
+        <item>도계</item>
+        <item>도고온천</item>
+        <item>도라산</item>
+        <item>동대구</item>
+        <item>동두천</item>
+        <item>동백산</item>
+        <item>동탄</item>
+        <item>동해</item>
+        <item>동화</item>
+        <item>둔내</item>
+        <item>득량</item>
+    </string-array>
+
+    <string-array name="ra_station">
+    </string-array>
+
+    <string-array name="ma_station">
+        <item>마산</item>
+        <item>마석</item>
+        <item>만종</item>
+        <item>만상해변</item>
+        <item>매곡</item>
+        <item>면봉</item>
+        <item>목포</item>
+        <item>몽탄</item>
+        <item>무안</item>
+        <item>묵호</item>
+        <item>문산</item>
+        <item>물금</item>
+        <item>민둥산</item>
+        <item>밀양</item>
+    </string-array>
+
+    <string-array name="ba_station">
+        <item>반성</item>
+        <item>백마고지</item>
+        <item>백양리</item>
+        <item>백양사</item>
+        <item>벌교</item>
+        <item>별어곡</item>
+        <item>보성</item>
+        <item>봉성</item>
+        <item>봉양</item>
+        <item>봉화</item>
+        <item>부강</item>
+        <item>부산</item>
+        <item>부전</item>
+        <item>북영천</item>
+        <item>북천</item>
+        <item>분천</item>
+        <item>불국사</item>
+        <item>비동</item>
+    </string-array>
+
+    <string-array name="sa_station">
+        <item>사곡</item>
+        <item>사릉</item>
+        <item>사북</item>
+        <item>사상</item>
+        <item>삼랑진</item>
+        <item>삼례</item>
+        <item>삼산</item>
+        <item>삼탄</item>
+        <item>삽교</item>
+        <item>상동</item>
+        <item>상봉</item>
+        <item>상주</item>
+        <item>서경주</item>
+        <item>서광주</item>
+        <item>서대전</item>
+        <item>서울</item>
+        <item>서원주</item>
+        <item>서정리</item>
+        <item>서천</item>
+        <item>석불</item>
+        <item>석포</item>
+        <item>선평</item>
+        <item>성환</item>
+        <item>센텀</item>
+        <item>소요산</item>
+        <item>수서</item>
+        <item>수원</item>
+        <item>순천</item>
+        <item>승부</item>
+        <item>신경주</item>
+        <item>신기</item>
+        <item>신녕</item>
+        <item>신동</item>
+        <item>신례원</item>
+        <item>신림</item>
+        <item>신망리</item>
+        <item>신창</item>
+        <item>신탄리</item>
+        <item>신탄진</item>
+        <item>신태인</item>
+        <item>신해운대</item>
+        <item>심천</item>
+    </string-array>
+
+    <string-array name="aa_station">
+        <item>아산</item>
+        <item>아우라지</item>
+        <item>안강</item>
+        <item>안동</item>
+        <item>안양</item>
+        <item>안인</item>
+        <item>약목</item>
+        <item>양동</item>
+        <item>양원</item>
+        <item>양평</item>
+        <item>여수EXPO</item>
+        <item>여천</item>
+        <item>연산</item>
+        <item>연천</item>
+        <item>영덕</item>
+        <item>영동</item>
+        <item>영등포</item>
+        <item>영월</item>
+        <item>영주</item>
+        <item>영천</item>
+        <item>예당</item>
+        <item>예미</item>
+        <item>예산</item>
+        <item>예천</item>
+        <item>오근장</item>
+        <item>오산</item>
+        <item>오송</item>
+        <item>오수</item>
+        <item>옥산</item>
+        <item>옥수</item>
+        <item>옥천</item>
+        <item>온양온천</item>
+        <item>완사</item>
+        <item>왕십리</item>
+        <item>왜관</item>
+        <item>용궁</item>
+        <item>용문</item>
+        <item>용산</item>
+        <item>운천</item>
+        <item>울산(통도사)</item>
+        <item>웅천</item>
+        <item>원동</item>
+        <item>원주</item>
+        <item>월포</item>
+        <item>음성</item>
+        <item>의성</item>
+        <item>의정부</item>
+        <item>이양</item>
+        <item>이원</item>
+        <item>익산</item>
+        <item>인천공항T1</item>
+        <item>인천공항T2</item>
+        <item>일로</item>
+        <item>일신</item>
+        <item>임기</item>
+        <item>임성리</item>
+        <item>임실</item>
+        <item>임진강</item>
+        <item>입석리</item>
+    </string-array>
+
+    <string-array name="za_station">
+        <item>장사</item>
+        <item>장성</item>
+        <item>장항</item>
+        <item>전곡</item>
+        <item>전의</item>
+        <item>전주</item>
+        <item>점촌</item>
+        <item>정동진</item>
+        <item>정선</item>
+        <item>정읍</item>
+        <item>제천</item>
+        <item>조성</item>
+        <item>조치원</item>
+        <item>좌천</item>
+        <item>주덕</item>
+        <item>중리</item>
+        <item>지제</item>
+        <item>지탄</item>
+        <item>지평</item>
+        <item>진례</item>
+        <item>진부(오대산)</item>
+        <item>진상</item>
+        <item>진영</item>
+        <item>진주</item>
+    </string-array>
+
+    <string-array name="cha_station">
+        <item>창원</item>
+        <item>창원중앙</item>
+        <item>천안</item>
+        <item>천안아산</item>
+        <item>철암</item>
+        <item>청도</item>
+        <item>청량리</item>
+        <item>청리</item>
+        <item>청소</item>
+        <item>청주</item>
+        <item>청주공항</item>
+        <item>청평</item>
+        <item>초성리</item>
+        <item>추풍령</item>
+        <item>춘양</item>
+        <item>춘천</item>
+        <item>충주</item>
+    </string-array>
+
+    <string-array name="ka_station">
+    </string-array>
+
+    <string-array name="ta_station">
+        <item>탑리</item>
+        <item>태백</item>
+        <item>태화강</item>
+        <item>퇴계원</item>
+    </string-array>
+
+    <string-array name="pa_station">
+        <item>판교</item>
+        <item>평내호평</item>
+        <item>평창</item>
+        <item>평택</item>
+        <item>포항</item>
+        <item>풍기</item>
+    </string-array>
+
+    <string-array name="ha_station">
+        <item>하동</item>
+        <item>하양</item>
+        <item>신림</item>
+        <item>한림정</item>
+        <item>한탕강</item>
+        <item>함안</item>
+        <item>함열</item>
+        <item>함창</item>
+        <item>함평</item>
+        <item>행신</item>
+        <item>현동</item>
+        <item>호계</item>
+        <item>홍성</item>
+        <item>화명</item>
+        <item>화본</item>
+        <item>화순</item>
+        <item>황간</item>
+        <item>횡성</item>
+        <item>횡천</item>
+        <item>효천</item>
+        <item>희방사</item>
+    </string-array>
+</resources>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/signUp_imageView_profile"
+            android:layout_width="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="60dp"
+            android:src="@drawable/manphoto" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD PROFILE IMAGE"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="회원가입 및 이용 약관에 동의해주세요"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/terms"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_border"
+            android:text="약관내용"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/signupbackgroundform"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Name"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textColor="#0B7BD3"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signup_inputform"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:ems="10"
+            android:hint="이름"
+            android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumbarungothicbold"
+                    android:textColor="#0B7BD3"/>
+
+                <EditText
+                    android:id="@+id/birthEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="예)19960702"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    android:padding="8dp"
+                    android:background="@drawable/signup_inputform"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:fontFamily="@font/nanumbarungothicbold"
+                    android:textColor="#0B7BD3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/genderSelectButton_male"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="#E6E5E5"
+                        android:textColor="@color/black"
+                        android:text="남자"/>
+                    <LinearLayout
+                        android:background="@color/black"
+                        android:layout_width="0.1dp"
+                        android:layout_height="match_parent">
+
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/genderSelectButton_female"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="#E6E5E5"
+                        android:text="여자"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textColor="#0B7BD3"/>
+
+        <EditText
+            android:id="@+id/idEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="이메일"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:background="@drawable/signup_inputform"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textColor="#0B7BD3"/>
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="비밀번호 (6자 이상)"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:background="@drawable/signup_inputform"
+            android:inputType="textPassword" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Re-Enter Password"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textColor="#0B7BD3"/>
+        <EditText
+            android:id="@+id/passwordCheckEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="비밀번호 확인 (6자 이상)"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="5dp"
+            android:padding="8dp"
+            android:background="@drawable/signup_inputform"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:textColor="#0B7BD3"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Spinner
+                    android:id="@+id/bankSpinner"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/accountEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:padding="8dp"
+                    android:background="@drawable/signup_inputform"
+                    android:ems="10"
+                    android:hint="계좌번호"
+                    android:inputType="number" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/authButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="#0B7BD3"
+                android:fontFamily="@font/maplestorylight"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="본인인증하기" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#0B7BD3"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/maplestorylight"
+                android:text="회원가입"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already a member?"
+
+                    android:fontFamily="@font/nanumbarungothicbold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/signUpActivityBacktoLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/nanumbarungothicbold"
+                    android:textColor="#0B7BD3"
+                    android:text=" Login"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

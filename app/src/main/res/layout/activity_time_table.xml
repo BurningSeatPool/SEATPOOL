@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_width="135dp"
+            android:text="출발"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="135dp"
+            android:text="도착"
+            android:paddingRight="15dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="135dp"
+            android:text="요금"
+            android:paddingRight="30dp"
+            android:fontFamily="@font/nanumbarungothicbold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/tableList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

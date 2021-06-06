@@ -1,0 +1,37 @@
+{
+	"name": "seatpool",
+	"version": "0.0.1",
+	"description": "Capstone project express",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server"
+	},
+	"author": "sangbaek",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"body-parser": "^1.19.0",
+		"cookie-parser": "^1.4.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-mysql-session": "^2.1.5",
+		"express-session": "^1.17.1",
+		"firebase": "^8.6.1",
+		"form-data": "^4.0.0",
+		"http": "0.0.1-security",
+		"java": "^0.12.1",
+		"morgan": "^1.10.0",
+		"mysql": "^2.18.1",
+		"node-schedule": "^2.0.0",
+		"request": "^2.88.2",
+		"selenium-webdriver": "^4.0.0-beta.3",
+		"socket.io": "^4.0.2",
+		"urlsearchparams": "^0.1.1",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"chromedriver": "^90.0.0",
+		"nodemon": "^2.0.7"
+	}
+}

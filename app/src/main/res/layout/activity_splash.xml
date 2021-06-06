@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splashactivity_linearlayout"
+    android:background="@drawable/splashbackground"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumbarungothic"
+            android:text="이번 여행은 당신과 함께합니다"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="25dp"
+                android:textColor="#62B4D3"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:text="SEAT"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" POOL"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:fontFamily="@font/nanumbarungothicbold"/>
+
+            <TextView
+                android:textSize="25dp"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 과 함께하세요"/>
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/logologo"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:fontFamily="@font/maplestorylight"
+            android:text="여행자 매칭과 공동 티켓 구매를 간단하게!"/>
+    </LinearLayout>
+
+</LinearLayout>

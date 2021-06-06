@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".FindAddressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#0B7BD3"
+                android:text="잠깐!"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:textSize="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothic"
+                android:text="앱 사용에 앞서, 보다 나은 서비스를 제공하기 위해"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothic"
+                android:text="간단한"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textColor="#2196F3"
+                android:text=" 위치 정보"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothic"
+                android:text="를 제공받습니다."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothic"
+                android:text="(선택사항)"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your MainAddress"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/nanumbarungothicbold"
+        android:textColor="#0B7BD3"/>
+    <EditText
+        android:id="@+id/edit_addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:background="@drawable/signup_inputform"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/nanumbarungothic"
+        android:padding="8dp"
+        android:ems="10"
+        android:hint="주소를 입력해주세요."
+        android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your SubAddress"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/nanumbarungothicbold"
+        android:textColor="#0B7BD3"/>
+    <EditText
+        android:id="@+id/edit_addr_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanumbarungothic"
+        android:background="@drawable/signup_inputform"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        android:ems="10"
+        android:hint="활동지를 입력해주세요."
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:textColor="#FF5722"
+                android:text="제공 서비스"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/maplestorylight"
+                android:textColor="@color/black"
+                android:text="1."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/maplestorylight"
+                android:textColor="@color/black"
+                android:text=" 여행 친구 찾기"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:fontFamily="@font/maplestorylight"
+                android:text=" G"
+                android:textColor="#0B7BD3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F44336"
+                android:fontFamily="@font/maplestorylight"
+                android:text="o"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:fontFamily="@font/maplestorylight"
+                android:text="o"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0B7BD3"
+                android:fontFamily="@font/maplestorylight"
+                android:text="g"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:fontFamily="@font/maplestorylight"
+                android:text="l"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F44336"
+                android:fontFamily="@font/maplestorylight"
+                android:text="e"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/maplestorylight"
+                android:text=" MAP"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/maplestorylight"
+                android:textColor="@color/black"
+                android:text="2."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/maplestorylight"
+                android:textColor="@color/black"
+                android:text=" 나의 위치"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:fontFamily="@font/maplestorylight"
+                android:text=" G"
+                android:textColor="#0B7BD3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F44336"
+                android:fontFamily="@font/maplestorylight"
+                android:text="o"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFC107"
+                android:fontFamily="@font/maplestorylight"
+                android:text="o"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0B7BD3"
+                android:fontFamily="@font/maplestorylight"
+                android:text="g"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:fontFamily="@font/maplestorylight"
+                android:text="l"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F44336"
+                android:fontFamily="@font/maplestorylight"
+                android:text="e"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/maplestorylight"
+                android:text=" MAP"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/maplestorylight"
+                android:textColor="@color/black"
+                android:text=" 등록"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:text="등록하지 않으면 해당사항 서비스 이용 제한"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/findAddressCancelbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="취소하기"
+            android:background="#0B7BD3"
+            android:fontFamily="@font/maplestorylight"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/findAddressRegisterbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0B7BD3"
+            android:fontFamily="@font/maplestorylight"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="등록하기"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

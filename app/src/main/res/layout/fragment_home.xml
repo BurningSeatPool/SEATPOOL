@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Home">
+
+
+    <LinearLayout
+        android:id="@+id/homeActivityMainSlogan"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="여행자 매칭"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="부터"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공동표 구입"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="까지"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+                android:textColor="#62B4D3"
+                android:fontFamily="@font/nanumbarungothic"
+                android:text="SEAT"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" POOL"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/nanumbarungothic"/>
+
+            <TextView
+                android:textSize="20dp"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 과 함께하세요"/>
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            &lt;!&ndash;<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEAT POOL과 함께 행복한 추억 만들어 가세요!"
+                android:textSize="15dp"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textStyle="bold"/>&ndash;&gt;
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/homeActivityUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:fontFamily="@font/nanumbarungothic"
+                android:text=" 님 안녕하세요 !"/>-->
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/top_rounded_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:fontFamily="@font/nanumbarungothicbold"
+                android:text="시간표 선택"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="0.3dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="출발지"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/maplestorylight"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/depPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="선택"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/nanumbarungothic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_arrow_forward_24"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="도착지"
+                    android:fontFamily="@font/maplestorylight"
+                    android:textColor="@color/black" />
+                <TextView
+                    android:id="@+id/arrPlace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="선택"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/nanumbarungothic"
+                    android:textSize="20dp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="출발일자"
+                android:textColor="@color/black" />-->
+
+            <EditText
+                android:id="@+id/datePicker"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fontFamily="@font/nanumbarungothic"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:gravity="center"
+                android:text="출발 날짜 선택하기" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/dateTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dropdown"
+                    android:background="#FAF8F7"
+                    android:padding="3dp"
+                    style="@style/test"
+                    android:gravity="center"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_marginTop="1.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/nanumbarungothic"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="시 이후"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/maplestorylight"
+                android:background="#62B4D3"
+                android:text="시간표 검색하기"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/seatimage"/>
+
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/group5"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

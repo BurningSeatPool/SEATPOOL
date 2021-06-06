@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".SearchPeople">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+                <com.getbase.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/sp_action_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:fab_expandDirection="down"
+                    android:src="@drawable/ic_edit"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    app:fab_labelsPosition="right"/>
+        </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

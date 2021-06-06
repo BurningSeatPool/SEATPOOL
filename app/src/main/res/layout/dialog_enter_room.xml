@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/seatpool"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:textColor="#808080"
+        android:text="출발 2일 전부터 환불은 불가능합니다"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/enterRoomDialog_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:textColor="@color/black"
+        android:text="그룹 채팅방에 입장하시겠습니까?"
+        android:gravity="center"/>
+
+
+</LinearLayout>
