@@ -13,7 +13,7 @@
     * I'mport API 
 
 ##### 개발 환경 설정하기
-    > git clone REPOSITORY ADDRESS
+    > git clone https://github.com/BurningSeatPool/SEATPOOL
     > npm install
 ##### 실행하기
     > node server.js
