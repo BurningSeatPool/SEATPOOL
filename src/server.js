@@ -78,14 +78,14 @@ schedule.scheduleJob('0 0 4 * * ?', function(){
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
-    apiKey: "AIzaSyCiEDFX5Gw47VC6fXSSbqGiIvDL_xgjqro",
-    authDomain: "seat-34957.firebaseapp.com",
-    databaseURL: "https://seat-34957-default-rtdb.firebaseio.com",
-    projectId: "seat-34957",
-    storageBucket: "seat-34957.appspot.com",
-    messagingSenderId: "427323375992",
-    appId: "1:427323375992:web:81926856ac633a31d6888d",
-    measurementId: "G-29D3MDHDNH"
+    apiKey: APIKEY,
+    authDomain: AUTHDOMAIN,
+    databaseURL: DATABASE_URL,
+    projectId: PORJECT_ID,
+    storageBucket: STORAGE_BUCKET,
+    messagingSenderId: MESSAGING_SENDER_ID,
+    appId: APP_ID,
+    measurementId: MEASUREMENT
   };
 
 // Initialize Firebase
@@ -322,7 +322,7 @@ function pushMsg(token, title, message){
         url: 'https://fcm.googleapis.com/fcm/send',
         body: JSON.stringify(user),
         headers: {
-            'Authorization' : 'key=AAAAY351QXg:APA91bHAkN5FMVjoVPDS8yQ5qMpb6LkgeONZDaxf_a1AGReyFOlo39dmg2x-xF-laD7-e9jaBoukYk4J6pV3GzRxSQ-B6CvdZnlX-0y9yzof-BO1FBMcLe0zRyl8uUkzF_QSXbWXixFh',
+            'Authorization' : AUTHORIZATION,
             'Content-Type' : 'application/json'
         }
     }, function(error, response, body){
@@ -376,8 +376,8 @@ function Refund(token, uid, fbUser){
 }
 
 const iamport = {
-    imp_key: '6187997489622855',
-    imp_secret: 'opyplv4WFWEBVq2OkF4ywA4eJNDTj2FIre7MJbJo7o03O3S9IWIexMtgz6aS8PBA3InNU7c2vd6kgYtZ'
+    imp_key: IMP_KEY,
+    imp_secret: IMP_SECRET
 };
 
 function VerifyPay(uid, callback){
